@@ -1,0 +1,152 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+#pragma once
+
+#include "CoreMinimal.h"
+#include "Engine/DataTable.h"
+#include "CityPayouts.generated.h"
+
+USTRUCT(BlueprintType)
+struct FCityPayouts : public FTableRowBase
+{
+	GENERATED_USTRUCT_BODY()
+public:
+//	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+//		FString City;	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Albany;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Atlanta;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Baltimore;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Billings;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Birmingham;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Boston;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Buffalo;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Butte;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Casper;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Charleston;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Charlotte;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Chattanooga;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Chicago;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Cincinnati;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Cleveland;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Columbus;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Dallas;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Denver;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString DesMoines;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Detroit;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString ElPaso;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Fargo;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString FortWorth;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Houston;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Indianapolis;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Jacksonville;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString KansasCity;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Knoxville;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString LasVegas;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString LittleRock;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString LosAngeles;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Louisville;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Memphis;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Miami;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Milwaukee;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Minneapolis;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Mobile;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Nashville;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString NewOrleans;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString NewYork;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Norfolk;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Oakland;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString OklahomaCity;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Omaha;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Philadelphia;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Phoenix;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Pittsburgh;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Pocatello;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString PortlandME;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString PortlandOR;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Pueblo;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString RapidCity;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Reno;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Richmond;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Sacramento;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString SaltLakeCity;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString SanAntonio;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString SanDiego;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString SanFrancisco;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Seattle;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Shreveport;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Spokane;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString StLouis;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString StPaul;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Tampa;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Tucumcari;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString WashingtonDC;
+
+};
+
